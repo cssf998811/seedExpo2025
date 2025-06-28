@@ -1,5 +1,5 @@
 <script setup>
-import headerSection from '../components/headerSection.vue'
+import headerSection from '../components/heroSection.vue'
 </script>
 
 <template>
