@@ -1,7 +1,9 @@
 <script setup>
-import headerSection from '../components/heroSection.vue'
+import heroSection from '../components/heroSection.vue'
+import bentoGrids from '../components/worldIssue/bentoGrids.vue'
 </script>
 
 <template>
-  <headerSection />
+  <heroSection />
+  <bentoGrids />
 </template>
