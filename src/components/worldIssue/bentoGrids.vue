@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-gray-50 py-24 sm:py-32">
+  <div class="bg-gray-50 py-12 sm:py-16">
     <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
       <!-- <h2 class="text-center text-base/7 font-semibold text-indigo-600">Deploy faster</h2> -->
       <p
-        class="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-gray-950 leading-tight sm:text-5xl"
+        class="mx-auto mt-2 max-w-4xl text-center text-4xl font-semibold tracking-tight text-balance text-gray-950 leading-tight sm:text-5xl"
       >
         <!-- https://www.iea.org/reports/global-energy-review-2025/co2-emissions#abstract -->
         Global Energy Review 2025
@@ -14,13 +14,17 @@
           <div
             class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]"
           >
-            <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-              <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                <!-- Global Energy Review 2025 -->
+            <div class="px-8 pt-4 pb-2 sm:px-10 sm:pt-10 sm:pb-0">
+              <p class="mt-2 w-full text-sm text-gray-600 max-lg:text-center">
+                圖表顯示了全球能源相關的二氧化碳排放量變化。值得注意的是 2020年因 COVID-19疫情導致的短暫下降，以及隨後經濟復甦帶來的迅速反彈，排放量再創新高。這突顯了全球在能源轉型與氣候目標上所面臨的嚴峻挑戰。
               </p>
-              <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                IEA. Licence: CC BY 4.0
+              <p class="mt-4 text-xs text-gray-500 max-lg:text-center">資料來源: IEA. Licence: CC BY 4.0</p>
+            </div>
+            <div class="px-8 pt-4 pb-2 sm:px-10 sm:pt-10 sm:pb-0">
+              <p class="mt-2 w-full text-sm text-gray-600 max-lg:text-center">
+                The chart shows the dramatic changes in global energy-related emissions. It is worth noting that emissions hit a new high in 2020 after a brief recovery due to the COVID-19 pandemic and the subsequent sharp rebound brought about by economic recovery. This highlights the severe challenges facing global energy transition and climate goals.
               </p>
+              <p class="mt-4 text-xs text-gray-500 max-lg:text-center">Source: IEA. Licence: CC BY 4.0</p>
             </div>
             <div
               class="@container relative min-h-120 w-full px-7 mt-4 grow max-lg:mx-auto max-lg:max-w-sm"
@@ -47,32 +51,21 @@
             class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]"
           >
             <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-              <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                Powerful APIs
+              <p class="mt-2 text-xl font-medium tracking-tight text-gray-950 max-lg:text-center">
+                為什麼氣候會變得越來越不正常？
               </p>
-              <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget sem sodales
-                gravida.
+              <p class="mt-2 max-w-4xl text-sm/7 text-gray-6 text-gray-600 max-lg:text-center">
+                一個簡單的問題，背後是複雜的氣候科學。全球暖化、極端天氣、海平面上升...這一切都源於人類活動對地球系統的深刻影響。
+              </p>
+              <p class="mt-2 text-xl font-medium tracking-tight text-gray-950 max-lg:text-center">
+                Why is the climate becoming increasingly abnormal?
+              </p>
+              <p class="mt-2 max-w-4xl text-sm/7 text-gray-6 text-gray-600 max-lg:text-center">
+                A simple question, behind it is complex climate science. Global warming, extreme weather, sea level rise... all of this comes from human activities。
               </p>
             </div>
-            <div class="relative min-h-120 w-full grow">
-              <div
-                class="absolute top-10 right-0 bottom-0 left-10 overflow-hidden rounded-tl-xl bg-gray-900 shadow-2xl outline outline-white/10"
-              >
-                <div class="flex bg-gray-900 outline outline-white/5">
-                  <div class="-mb-px flex text-sm/6 font-medium text-gray-400">
-                    <div
-                      class="border-r border-b border-r-white/10 border-b-white/20 bg-white/5 px-4 py-2 text-white"
-                    >
-                      NotificationSetting.jsx
-                    </div>
-                    <div class="border-r border-gray-600/10 px-4 py-2">App.jsx</div>
-                  </div>
-                </div>
-                <div class="px-6 pt-6 pb-14">
-                  <!-- Your code example -->
-                </div>
-              </div>
+            <div class="relative flex min-h-80 w-full grow items-center justify-center">
+              <p class="select-none text-[12rem] font-bold text-gray-400">?</p>
             </div>
           </div>
           <div

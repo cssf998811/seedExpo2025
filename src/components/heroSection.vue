@@ -126,7 +126,15 @@
         </div> -->
         <div class="text-center">
           <h1
-            class="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl leading-tight"
+            class="text-6xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl leading-tight"
+          >
+            從氣候危機出發，激起孩子的疑問!
+          </h1>
+          <p class="mt-8 text-lg font-medium text-pretty text-gray-500 text-start sm:text-xl/8">
+            孩子們正在一個已經面臨氣候變化影響的世界中成長。他們目睹了自然災害、極端天氣事件和生物多樣性的喪失。這些經驗不僅影響著他們的身體健康，也影響著他們的情感和心理健康。
+          </p>
+          <h1
+            class="text-6xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl leading-tight mt-4"
           >
             Climate crisis sparks questions in children
           </h1>
@@ -135,14 +143,6 @@
             They are witnessing natural disasters, extreme weather events, and the loss of
             biodiversity. These experiences are not only affecting their physical well-being but
             also their emotional and psychological health.
-          </p>
-          <h1
-            class="text-6xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl leading-tight mt-4"
-          >
-            從氣候危機出發，激起孩子的疑問!
-          </h1>
-          <p class="mt-8 text-lg font-medium text-pretty text-gray-500 text-start sm:text-xl/8">
-            孩子們正在一個已經面臨氣候變化影響的世界中成長。他們目睹了自然災害、極端天氣事件和生物多樣性的喪失。這些經驗不僅影響著他們的身體健康，也影響著他們的情感和心理健康。
           </p>
 
           <!-- <div class="mt-10 flex items-center justify-center gap-x-6">
